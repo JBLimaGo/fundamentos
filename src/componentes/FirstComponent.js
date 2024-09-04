@@ -1,3 +1,5 @@
+import MyComponent from "./MyComponent";
+
 const FirstComponent = () => {
   // Todo Componente tem que ter o return
   return (
@@ -5,8 +7,9 @@ const FirstComponent = () => {
     // Não declarar como class e sim como className pois da erro de performance e erro no navegador no console declarando só class
     <div>
       <h1> Meu Primeiro Componente</h1>
-
       <p className="teste"> Meu Texto de teste</p>
+
+      <MyComponent />
     </div>
   );
 };
